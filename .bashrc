@@ -103,6 +103,6 @@ case $TERM in
     *)     LANG=ja_JP.UTF-8;;
 esac
 
-source git-prompt.sh
-source git-completion.bash
+source ~/dotfiles/git-prompt.sh
+source ~/dotfiles/git-completion.bash
 export PS1='\[\033[01;32m\]\u@\h\[\033[01;33m\] \w \[\033[01;31m\]$(__git_ps1 "(%s)") \n\[\033[01;34m\]\$\[\033[00m\] '
