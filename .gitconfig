@@ -1,0 +1,13 @@
+[user]
+	name = Rozelin
+	email = rozelin.dc@gmail.com
+[core]
+	editor = code --wait
+[alias]
+	push-f = push --force-with-lease
+[init]
+	defaultBranch = main
+[alias]
+	ca = commit --amend
+	rb = rebase -i
+  graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %C(blue)%cn %C(red)%d %Creset%s'
