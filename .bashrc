@@ -106,3 +106,14 @@ esac
 source ~/dotfiles/git-prompt.sh
 source ~/dotfiles/git-completion.bash
 export PS1='\[\033[01;32m\]\u@\h\[\033[01;33m\] \w \[\033[01;31m\]$(__git_ps1 "\n(%s)") \n\[\033[01;34m\]\$\[\033[00m\] '
+
+# nodenv
+export PATH="$HOME/.nodenv/bin:$PATH"
+eval "$(nodenv init -)"
+# end nodenv
+
+# 履歴からコマンド補完
+# 上矢印キー
+bind '"\e[A": history-search-backward'
+# 下矢印キー
+bind '"\e[B": history-search-forward'
