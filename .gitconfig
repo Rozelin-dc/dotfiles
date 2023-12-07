@@ -1,6 +1,9 @@
 [user]
   name = Rozelin
   email = rozelin.dc@gmail.com
+  signingkey = TODO
+[commit]
+  gpgsign = true
 [core]
   editor = code --wait
 [init]
