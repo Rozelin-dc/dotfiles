@@ -8,20 +8,20 @@ format = '''$username$hostname: $directory \($git_branch$git_status$git_state\)
 \$ '''
 
 [directory]
-style = 'bold green'
-format = '$path($style)'
+style = 'bold yellow'
+format = '[$path]($style)'
 truncate_to_repo = false
 truncation_length = 10
 
 [username]
 style_user = 'bold green'
 style_root = 'bold blue'
-format = '$user($style)'
+format = '[$user]($style)'
 show_always = true
 
 [hostname]
 style = 'bold green'
-format = '@$hostname($style)'
+format = '[@$hostname]($style)'
 ssh_only = false
 
 [git_branch]
@@ -29,18 +29,18 @@ symbol = ''
 truncation_length = 20
 truncation_symbol = '...'
 style = 'bold red'
-format = '$branch($style)'
+format = '[$branch]($style)'
 
 [git_commit]
 disabled = true
 
 [git_state]
 style = 'bold red'
-format = '( | $state)($style)'
+format = '[( | $state)]($style)'
 
 [git_status]
 style = 'bold red'
-format = '( $all_status$ahead_behind)($style)'
+format = '[( $all_status$ahead_behind)]($style)'
 conflicted = '!'
 up_to_date = '='
 ahead = '>'
