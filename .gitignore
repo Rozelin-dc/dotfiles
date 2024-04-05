@@ -9,6 +9,7 @@
 ### not ignore ###
 !/.bashrc
 !/.zshrc
+!/starship.toml
 !/bin/
 !/bin/**
 !/.bin.local
