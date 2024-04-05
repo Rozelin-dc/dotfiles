@@ -30,6 +30,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 # nodenv
 git clone https://github.com/nodenv/nodenv.git ~/.nodenv
 git clone https://github.com/nodenv/node-build.git ~/.nodenv/plugins/node-build
+git clone https://github.com/pine/nodenv-yarn-install.git ~/.nodenv/plugins/nodenv-yarn-install
 
 # ログインシェルをzshに
 chsh -s /usr/bin/zsh
